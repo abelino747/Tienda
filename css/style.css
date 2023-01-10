@@ -1,0 +1,52 @@
+body{
+    background-color: rgba(42, 42, 155, 0.842);
+    font-family: 'Amiri', serif;
+}
+h1, h2{
+    
+    font-size: 1.5em;
+    padding-top: 15px;
+    
+}
+.card{
+    margin: 100px auto;
+    background: linear-gradient(45deg , rgb(21, 52, 85), rgb(91, 91, 177), rgb(150, 167, 241) );
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: rgba(7, 15, 65, 0.753) 5px 5px 5px 5px;
+
+}
+.label, .input{
+    display: block;
+    width: 320px;
+    padding: 5px;
+    margin: auto;
+    text-align: start;
+    
+}
+.input{
+    height: 20px;
+    border: none;
+    border-radius: 20px;  
+    
+}
+.button{
+   
+    width: 320px;
+    padding: 5px;
+    margin: 30px auto;
+    border: none;
+    border-radius: 20px;  
+    background-color: rgb(0, 47, 255);
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+@media (max-width: 500px) {
+    body{
+    background-color: rgba(11, 143, 148, 0.774);
+}
+}
