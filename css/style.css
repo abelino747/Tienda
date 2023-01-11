@@ -1,16 +1,24 @@
+:root{
+    --fondo: rgba(42, 42, 155, 0.842);
+    --caja: linear-gradient(45deg , rgb(21, 52, 85), rgb(91, 91, 177), rgb(150, 167, 241) );
+
+}
 body{
-    background-color: rgba(42, 42, 155, 0.842);
+    background-color: var(--fondo);
     font-family: 'Amiri', serif;
 }
 h1, h2{
     
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding-top: 15px;
     
 }
+h2{
+    color: white;
+}
 .card{
     margin: 100px auto;
-    background: linear-gradient(45deg , rgb(21, 52, 85), rgb(91, 91, 177), rgb(150, 167, 241) );
+    background:var(--caja);
     width: 350px;
     height: 400px;
     text-align: center;
@@ -44,6 +52,29 @@ h1, h2{
     font-size: 1em;
     font-weight: bold;
     
+}
+.imagen{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+    padding-top: 8px;
+    background-color: white;
+}
+.correo{
+    height: 80px;
+    width: 80px;
+}
+.datos{
+    padding-top: 30px;
+    
+}
+a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    background-color: var(--caja);
 }
 @media (max-width: 500px) {
     body{
