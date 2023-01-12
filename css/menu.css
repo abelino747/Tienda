@@ -1,0 +1,161 @@
+:root {
+    --blanco: #ffffff;
+    --negro: #000000;
+    --gris: #d1c4c4;
+    --azulfan: #61949096;
+    --azulgre: #2e8f96;
+    --azulmor: #7f86e6;
+    --azulvio: #876fc7;
+    --violeta: #a91bccd5;
+    --fondo: #123456;
+    --fondovar: #0d7070;
+
+    --sm: 14px;
+    --md: 18px;
+    --lg: 22px;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Amiri', serif;
+    background-color: var(--fondo);
+
+}
+
+.nav {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    background-color: var(--fondovar);
+
+}
+
+.menu {
+    display: none;
+    
+
+}
+
+.navbar_left,
+.navbar_right {
+    padding: 0 20px;
+    background-color: var(--fondovar);
+
+}
+
+.navbar_left {
+    display: flex;
+
+}
+
+.navbar_left ul,
+.navbar_right ul {
+    list-style: none;
+    margin: 0px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar_left ul li {
+    width: 80px;
+    border: 1px solid var(--azulgre);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.navbar_left ul li,
+.navbar_right ul li {
+    text-decoration: none;
+    color: var(--negro);
+    padding: 0px 10px;
+    margin: 0px 2px;
+
+}
+
+.navbar_left ul li a {
+    text-decoration: none;
+    color: var(--negro);
+    padding: 0px 15px 0px 15px;
+
+}
+
+.navbar_left ul li:hover,
+.navbar_right ul li:hover {
+    text-decoration: none;
+    color: var(--blanco);
+    border: 2px solid var(--azulmor);
+}
+
+.navbar_left ul li a:hover {
+    color: var(--blanco);
+
+}
+
+.navbar_right ul {
+    margin-top: 10px;
+
+}
+
+.navbar_right ul li {
+    color: var(--gris);
+
+
+}
+
+.logo {
+    width: 150px;
+
+}
+
+.navbar_shopping {
+    position: relative;
+
+}
+
+.navbar_shopping div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: var(--md);
+    font-weight: bold;
+    position: absolute;
+    top: -6px;
+    right: -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fondo);
+
+}
+
+@media (max-width: 600px) {
+    .menu {
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding: 15px;
+        align-self: center;
+
+    }
+
+    .logo {
+        width: 100px;
+        align-self: center;
+    }
+
+    .navbar_left {
+        margin-left: 90px;
+    }
+
+    .navbar_left ul {
+        display: none;
+    }
+
+    .correo {
+        display: none;
+
+    }
+
+}

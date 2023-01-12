@@ -1,9 +1,9 @@
 :root{
-    --fondo: rgba(42, 42, 155, 0.842);
+    --fondo: #123456;
     --caja: linear-gradient(45deg , rgb(21, 52, 85), rgb(91, 91, 177), rgb(150, 167, 241) );
 
 }
-body{
+*{
     background-color: var(--fondo);
     font-family: 'Amiri', serif;
 }
