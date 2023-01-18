@@ -4,54 +4,122 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index</title>
-    <link rel="stylesheet" href="css/card.css" />
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="css/menu.css" />
     <!--link del estilo de letra de google-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap"
     rel="stylesheet"
   </head>
-  
-  <body>
-    <div class="container">
-      <div class="detalle">
-        <div class="card">
+
+  <body class="body">
+    <nav class="nav">
+      <!--menu escritorio-->
+      <img src="icons/icon_menu.svg" alt="menu" class="hamburger" />
+
+      <div class="navbar_left">
+        <img src="#" alt="logo" class="logo" />
+        <ul>
+          <li><a href="/">All</a></li>
+          <li><a href="/">Clothes</a></li>
+          <li><a href="/">Electrics</a></li>
+          <li><a href="/">Forniture</a></li>
+          <li><a href="/">Toys</a></li>
+          <li><a href="/">Others</a></li>
+        </ul>
+      </div>
+      <div class="navbar_right">
+        <ul>
+          <li class="correo">abel9106@gmail.com</li>
+          <li class="navbar_shopping">
+            <img
+              src="icons/icon_shopping_cart.svg"
+              alt="shopping cart"
+              class="shopping_cart"
+            />
+            <div>2</div>
+          </li>
+        </ul>
+      </div>
+      <!--menu sing-out-->
+      <div class="menu inactive">
+        <ul>
+          <li><a href="#">Mi Orden</a></li>
+          <li><a href="#">Mi Cuenta</a></li>
+          <li><a href="#">Sign Out</a></li>
+        </ul>
+      </div>
+      <!--menu mobile-->
+      <div class="menuMobile inactive">
+        <ul>
+          <li><a href="#">Categorias</a></li>
+          <li><a href="#">Todo</a></li>
+          <li><a href="#">Ropa</a></li>
+          <li><a href="#">Electronico</a></li>
+          <li><a href="#">Muebles</a></li>
+          <li><a href="#">Juguetes</a></li>
+          <li><a href="#">Otros</a></li>
+          <li><a href="#">Mi Orden</a></li>
+          <li><a href="#">Mi Cuenta</a></li>
+          <li><a href="#">correo_ejem@gmail.com</a></li>
+          <li><a href="#">Sign Out</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!--menu productos en el carrito-->
+    <aside>
+      <div class="orden inactive">
+        <span>Orden : </span>
+        <div class="detalle">
           <img
-            class="producto"
             src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="imagen"
+            alt="product"
+            class="product"
           />
-          <h1>$100</h1>
-          <img
-            class="carrito"
-            src="icons/icon_shopping_cart.svg"
-            alt="carrito"
-          />
-          <span>Computador</span>
+          <p>Descripcion</p>
+          <p>$ 3000</p>
         </div>
+        <div class="detalle">
+          <img
+            src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="product"
+            class="product"
+          />
+          <p>Descripcion</p>
+          <p>$ 3000</p>
+        </div>
+
+        <button class="button" type="button">Checkout</button>
       </div>
-      <div class="card">
-        <img src="" alt="imagen" />
+    </aside>
+    <!--cards de productos-->
+    <div class="conten"></div>
+    <!--card de detalle-->
+    <div class="pedido inactive">
+      <img
+        class="producto"
+        src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="compu"
+      />
+      <div class="detal">
+        <h1>100</h1>
+        <img class="cerrar" src="icons/icon_close.png" alt="cerrar">
+        <img class="carito" src="icons/icon_shopping_cart.svg" alt="carrito" />
+        <span>Computador</span>
+        
       </div>
-      <div class="card">
-        <img src="" alt="imagen" />
-      </div>
-      <div class="card">
-        <img src="" alt="imagen" />
-      </div>
-      <div class="card">
-        <img src="" alt="imagen" />
-      </div>
-      <div class="card">
-        <img src="" alt="imagen" />
-      </div>
-      <div class="card">
-        <img src="" alt="imagen" />
-      </div>
-      <div class="card">
-        <img src="" alt="imagen" />
+      <p >
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis ad
+        omnis dignissimos at, corporis, necessitatibus, reprehenderit modi
+        explicabo nihil doloremque nulla .
+      </p>
+      <div class="agregar">
+        <input class="agrega" type="button" value="Agregar">
       </div>
     </div>
+
+    <!--archivo de js-->
+    <script src="js/main.js"></script>
   </body>
 </html>
