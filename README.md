@@ -1,3 +1,5 @@
+las imagenes usadas para el producto son de uso libre publicadas por pexels.com y pixabay 
+
 1 pantalla crear contraseña
 
 ![Image text](https://github.com/abelino747/Tienda/blob/master/imagenes/Captura%20de%20pantalla%20(1426).png)
