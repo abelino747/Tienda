@@ -1,4 +1,5 @@
 las imagenes usadas para el producto son de uso libre publicadas por pexels.com y pixabay 
+demostracion de la pagina principal:  https://abelino747.github.io/Tienda/
 
 1 pantalla crear contraseña
 
