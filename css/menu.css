@@ -3,7 +3,7 @@
     --negro: #000000;
     --gris: #d1c4c4;
     --azulfan: #59b1a996;
-    --azulgre: #299497;
+    --azulgre: #188686;
     --azulmor: #7f86e6;
     --azulvio: #876fc7;
     --violeta: #a91bccd5;
@@ -319,7 +319,7 @@ span{
 
 /*despliegue del pedido*/
 .pedido{
-    height: 550px;
+    height: 480px;
     width: 220px;
     position: relative;
     top: -429px;
@@ -368,7 +368,9 @@ span{
 p{
     
     background-color: var(--caja);
-    text-align: center;
+    text-align: justify;
+    padding: 0px 5px;
+    font-size: 0.8em;
 }
 .agregar{
     
@@ -414,5 +416,10 @@ p{
         display: none;
 
     }
-
+    .pedido {
+        position: fixed;
+        top: 71px;
+        left: 26%;
+        background-color: var(--azulgre);
+}
 }
